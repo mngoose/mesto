@@ -1,0 +1,16 @@
+.element__like {
+  background-image: url(../../../images/like-button.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: none;
+  background-color: white;
+  height: 19px;
+  width: 22px;
+  border: 0px;
+}
+
+.element__like-btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

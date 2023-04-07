@@ -1,0 +1,31 @@
+.profile__btn-add {
+  border: solid white 2px;
+  border-radius: 2px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  background-color: transparent;
+  width: 282px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.profile__btn-add:hover {
+  cursor: pointer;
+  opacity: 60%;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 1280px) {
+  .profile__btn-add {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 18px;
+    max-width: 150px;
+    max-height: 50px;
+  }
+}
